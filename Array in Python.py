@@ -6,6 +6,7 @@
 #from array import *
 
 import array as arr
+import numpy as np
 
 a = arr.array('i',[1,2,3,4])   #'i' is used to define the type of array which is an integer and [1,2,3,4] is the length of the array
 print("The newly created array is: ", end="")
@@ -24,3 +25,12 @@ print(a)
 
 a.reverse()
 print(a)
+
+#Creating a 2D Array
+Two_D = np.array([[1,2,3],[4,5,6]])
+print(Two_D)
+
+# Creating a 3D Array
+
+Three_D = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[4,2,3]]])
+print(Three_D)
